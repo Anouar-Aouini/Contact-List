@@ -1,0 +1,19 @@
+{
+    "name": "khedma",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "front": "cd front-end-contactlist && npm start",
+        "back": "nodemon server.js",
+        "dev": "concurrently \"npm run front \" \"npm run back \""
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "concurrently": "^6.2.0",
+        "express": "^4.17.1",
+        "mongoose": "^5.12.10",
+        "nodemon": "^2.0.7"
+    }
+}
